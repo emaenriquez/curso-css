@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 50px auto;
+    /* background-color: #000; */
+    /* background-image: url('./auto.jpg'); */
+    /* background-size: 30%; */
+    /* background-repeat:no-repeat; */
+    /* background-position: center; */
+    /* background-position: top; */
+    /*top-left-rigth-bottom-center*/
+    background: linear-gradient(rgba(0, 0, 0, 0.165),rgba(255, 0, 0, 0.285)),url('./auto.jpg');
+    background-size: contain;
+    width: 90%;
+    height: 500px;
+    border: 1px solid #000;
+    text-align: center;
+    color: #fff;
+    padding:200px;
+}

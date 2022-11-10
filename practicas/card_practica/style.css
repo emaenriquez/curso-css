@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card{
+    width: 300px;
+    background-color: #150050;
+    color: #FB2576;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.card_img{
+    width: 100%;
+    border-radius: inherit;
+}
+.card_nombre,.card_tipo{
+    padding: inherit;
+}
+
+.card_btn-comprar{
+    cursor: pointer;
+    display: block;
+    background-color: #FB2576;
+    color: #150050;
+    padding: 10px;
+    border-radius: inherit;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+
+.card_btn-comprar:hover{
+    background-color: #150050;
+    color: #FB2576;
+    border: 1px solid #fff;
+}

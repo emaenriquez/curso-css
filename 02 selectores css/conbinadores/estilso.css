@@ -1,0 +1,52 @@
+/*combinador de desendientes*/
+
+ul .lista{
+    text-decoration: underline;
+}
+
+.todo .lista{
+    list-style: decimal;
+}
+
+.dias .lista{
+    list-style: none;
+}
+
+/*combinador de hijos de directos*/
+
+.listas > .lista{
+    list-style: upper-roman;
+}
+
+.dias > .lista{
+    color:tomato;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*combinardor de hermano adyacentes*/
+/*
+.subtitulo + .parrafo{
+    background-color: yellow;
+    height: 0;
+    overflow: hidden;
+    display: none;
+    transition: 1s;
+}
+
+.parrafo{
+    background: red;
+}
+
+.subtitulo:hover + .parrafo{
+    opacity: 1;
+    height: 50px;
+    display: block;
+}*/
+
+/*combinador de hermanos generales*/
+
+.subtitulo ~ .parrafo{
+    background-color: tomato;
+}
+

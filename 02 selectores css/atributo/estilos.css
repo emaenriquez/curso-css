@@ -1,0 +1,29 @@
+/*
+[type]{
+    background-color: darkslategray;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}*/
+
+[type='text']{
+background-color: aqua;
+}
+/*
+[value~='ingrese']{
+    background-color: blueviolet;
+}*/
+
+[value^='ingrese']{
+    background-color: black;
+}
+
+[value$='ingrese']{
+    background-color: yellow;
+}
+
+[value*='ingrese']{
+    background-color: red;
+}

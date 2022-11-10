@@ -1,0 +1,46 @@
+
+
+/* Selector universal*/
+
+*{
+    letter-spacing: 10px;
+}
+
+/* selector de tipo */
+
+div{
+    color: blue;
+    font-size: 100px;
+}
+
+/* selector de clase*/
+
+.peliculas{
+    color: black;
+}
+
+.series{
+    font-size: 40px;
+}
+
+.favoritas{
+    font-weight: bold;
+    color: darkorange;
+}
+
+.espaciado{
+    letter-spacing: 10px;
+}
+
+/*selector de id*/
+
+#spider-verse{
+    font-size: 25px;
+    color: bisque;
+    text-decoration: underline;
+}
+
+#temporada_3{
+    color: darkslategray;
+    font-size: 10px;
+}
